@@ -1,0 +1,24 @@
+#program of set and functions of set
+set={2,3,4,5}
+set.remove(2)
+print(set)
+set.clear()
+print(set)
+set2={2}
+set1={2,5,6}
+set3={9,0}
+x=set1.difference(set2)
+print(x)
+y=set1.intersection(set2)
+print(y)
+z=set1.union(set3)
+print(z)
+set3.pop()
+print(set3)
+set4={4,7,8,9}
+set5={4}
+set6={0}
+print(set5.issubset(set4))
+print(set4.issuperset(set5))
+set4.update(set6)
+print(set4)
